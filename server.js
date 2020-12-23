@@ -40,6 +40,10 @@ app.post("/",(req,res)=>{
    })
 })
 
-app.listen(3001, function() {
+if(process.env.NODE_ENV ==='production'){
+  app.use(express.static('client/build'));
+}
+
+app.listen(process.env.PORT || 3001, function() {
     console.log("Server started on port 3001.");
   });
