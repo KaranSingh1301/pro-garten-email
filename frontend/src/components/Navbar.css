@@ -1,0 +1,23 @@
+.logo{
+   
+    width: 80px;
+    margin-left: 12%;
+    margin-top: 25px;
+}
+
+.icon{
+    position: absolute;
+   top: 55px;
+    margin-left: 80%;
+   
+}
+.icon-p{
+   margin-left: 0.5em;
+   height: 2em;
+   width: 2em;
+   border-radius: 25%;
+}
+
+.navbar{
+    padding-bottom: 0px;
+}
